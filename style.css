@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 40px 40px;
+}
+.heading{
+    text-align: center;
+    color: #e1775e;
+    font-family: cursive;
+
+}
+.para{
+   border: 2px solid grey;
+   margin: 2px;
+   font-family: georgia, serif ; 
+   text-align: center;
+   background-color: orange;
+   
+}
+.li{
+    display: inline-grid;
+    grid-template: 1fr 1fr/ 1fr  1fr;
+    font-weight: bold;
+    gap: 50px;
+    transition: color 1s linear 700ms;
+
+}
+.li:hover{
+    color: greenyellow;
+}
+.ram{
+    text-align: center;
+    border: 3px dotted peru;
+    border-radius: 20px;
+    
+
+}
+.reg{
+    background-color: violet;
+    text-align: center;
+    border: 5px solid grey;
+    padding: 50px  50px;
+}
+.btn{
+    background-color: blue;
+
+}
+.btn:hover{
+    background-color: yellow;
+}
